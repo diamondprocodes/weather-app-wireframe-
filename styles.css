@@ -1,0 +1,96 @@
+/* h1, h2, h3, h4 {
+    text-align: center;
+}
+input {
+    margin: 0 auto;
+    display: flex;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;400;600;800&display=swap");
+
+* {
+    font-family: Kumbh Sans, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rectangle-body {
+    border: 2px outset #e8f5fd;
+    border-radius: 20px;
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 20px 10px 30px;
+    background: linear-gradient(178.6deg, rgb(232, 245, 253) 3.3%, rgb(252, 253, 255) 109.6%);
+    box-shadow: 3px 3px 2px grey;
+}
+h1, h2, h3 {
+    padding: 3px 0;
+}
+h1 {
+    font-weight: bold;
+}
+input {
+    display: block;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search-bar {
+color: blue;
+border: 3px outset #e8f5fd;
+border-radius: 20px;
+width: 22rem;
+box-shadow: 1px 1px 1px grey;
+}
+.submit-button {
+    width: 12rem;
+    border: 1px outset #b7b7b7;
+    border-radius: 40px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 1px 1px 1px grey;
+    background: linear-gradient(179.7deg, rgb(197, 214, 227) 2.9%, rgb(144, 175, 202) 97.1%);
+}
+
+h4 {
+    margin-top: 5rem;
+    font-weight: bold;
+}
+.card {
+    text-align: center;
+    border: 3px outset #e8f5fd;
+border-radius: 20px;
+padding-top: 10px;
+box-shadow: 1px 1px 1px grey;
+}
+
+.current-degree h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#cf {
+    font-size: 2rem;
+    text-align:center;
+    font-weight: bold;
+}
+#weather-description {
+    font-size: 20px;
+}
+footer p {
+    font-weight: 600;
+}
+.github-account, .l-account {
+font-size: 30px;
+color: black;
+padding: 0 5px 0 5px ;
+}
+.github-account:hover, .l-account:hover {
+    color:  rgb(166, 195, 218) ;
+}
